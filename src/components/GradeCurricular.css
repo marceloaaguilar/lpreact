@@ -1,3 +1,15 @@
 .accordion-body{
     text-align: left;
 }
+
+.icon{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+.card-title{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.card-body{
+    text-align: left;
+}

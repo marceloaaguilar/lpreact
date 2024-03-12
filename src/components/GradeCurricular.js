@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import playButton from '../assets/play-fill.svg'
 import studentProgress from '../assets/journal-check.svg';
+import CardCourse from './Card';
+
 import './GradeCurricular.css';
 
 
@@ -12,7 +14,7 @@ const  GradeCurricular = () => {
         <div>
         <Container>
             <Row>
-                <Col>
+                <Col xs={8} sm={12}>
                     <p>Grade Curricular</p>
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
@@ -136,9 +138,10 @@ const  GradeCurricular = () => {
                         
                     </Accordion>
                 </Col>
-                <Col>
-                
-                
+                <Col xs={4}>
+                    <CardCourse/>
+
+                    
                 </Col>
             </Row>
         </Container>
