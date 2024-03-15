@@ -1,0 +1,24 @@
+.card{
+    display: block;
+    margin: 1rem;
+}
+.cardImg{
+    width: 5rem;
+    margin: 2rem;
+}
+.card-body{
+    text-align: center;
+}
+
+#titleFeature{
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+#cards{
+    display: flex;
+}
+
+.featuresCourse{
+    background-color: #F8F2E9;
+}
