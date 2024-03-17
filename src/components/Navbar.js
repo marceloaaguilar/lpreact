@@ -11,7 +11,8 @@ const navbar = function() {
     return (
         <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Cabeleireiros</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <h1>Cabeleireiros</h1></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>

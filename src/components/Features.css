@@ -17,8 +17,25 @@
 
 #cards{
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .featuresCourse{
     background-color: #F8F2E9;
+}
+
+@media screen and (max-width: 768px){
+
+.card{
+    margin: 0rem;
+    margin-top: 1rem;
+}
+
+#cards{
+    flex-direction: column;
+
+}
+
+
 }

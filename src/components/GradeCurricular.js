@@ -8,11 +8,11 @@ import './GradeCurricular.css';
 
 const GradeCurricular = () => {
     return (
-        <div>
+        <div style={{paddingTop:'3rem'}}> 
         <Container>
             <Row>
-                <Col xl={8}>
-                    <p>Grade Curricular</p>
+                <Col xl={8} style={{textAlign: 'left'}}>
+                    <h2>Grade Curricular</h2>
                     <Modules/>
                 </Col>
                 <Col xl={4}>

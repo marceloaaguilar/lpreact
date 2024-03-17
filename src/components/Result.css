@@ -1,0 +1,27 @@
+.imageResult{
+    width: 100%;
+    height: 20rem;  
+    object-fit: cover;
+}
+
+.rowImages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     justify-content: 'center';
+     overflow: 'hidden'
+}
+
+@media screen and (max-width: 768px){
+
+    .rowImages{
+        flex-direction: column;
+    }
+
+    .imageResult{
+        height: 25rem;
+        object-fit: cover;
+    }
+    
+    
+    }

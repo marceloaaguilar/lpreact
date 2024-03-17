@@ -10,10 +10,10 @@ const Features = function() {
 
     return (
         <div className='featuresCourse'>
-        <Container >
-            <p id="titleFeature">O que você vai encontrar</p>
-            <div id="cards">
-                <Card style={{ width: '25rem' }}>
+        <Container style={{paddingBottom: '5rem'}}>
+            <h2 id="titleFeature">O que você vai encontrar</h2>
+            <div id="cards" >
+                <Card style={{ width: '100%' }}>
                     <Card.Img  class="cardImg" src={videoIcon} />
                     <Card.Body>
                         <Card.Title>Vídeos</Card.Title>
@@ -26,7 +26,7 @@ const Features = function() {
 
 
                 </Card>
-                <Card style={{ width: '25rem' }}>
+                <Card style={{ width: '100%' }}>
                     <Card.Img  class="cardImg" src={apostila} />
                     <Card.Body>
                         <Card.Title>Apostila</Card.Title>
@@ -39,7 +39,7 @@ const Features = function() {
 
 
                 </Card>
-                <Card style={{ width: '25rem' }}>
+                <Card style={{ width: '100%' }}>
                     <Card.Img  class="cardImg" src={certiifcado} />
                     <Card.Body>
                         <Card.Title>Vídeos</Card.Title>
