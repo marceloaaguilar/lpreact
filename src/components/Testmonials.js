@@ -11,13 +11,13 @@ const Testmonials = () => {
                 <h2>Depoimentos</h2>
                 <p>Confira o que andam falando sobre este curso!</p>
                 <Row className='align-items-center mt-5'>
-                    <Col >
+                    <Col lg={4} >
                         <Image src='fotoDepoimento2.jpg' className="img-fluid" style={{borderRadius: '10px'}}></Image>
                     </Col>
-                    <Col>
-                        <Image src='fotoDepoimento1.jpg' className="img-fluid" style={{borderRadius: '10px'}}></Image>
+                    <Col lg={4}>
+                        <Image src='fotoDepoimento1.jpg' className="img-fluid" style={{borderRadius: '10px', padding: '2rem'}}></Image>
                     </Col>
-                    <Col>
+                    <Col lg={4}>
                         <Image src='fotoDepoimento3.jpg' className="img-fluid" style={{borderRadius: '10px'}}></Image>
                     </Col>
 
