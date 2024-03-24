@@ -4,6 +4,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { Button } from 'react-bootstrap';
+import './Carousel.css';
+
 
 const Carousel = function navbar() {
     return (
@@ -18,10 +21,12 @@ const Carousel = function navbar() {
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
-            Slide 1
+            <div id="slideDiv">
+              <h4 style={{fontSize: '4rem', fontWeight: '400'}}>Mechas para todos os tipos de cabelo</h4>
+              <h4 style={{fontSize: '2rem', fontWeight: '200',margin: '2rem 0'}}>Aulas teóricas e práticas, mostrando o passo a passo para execução perfeita de mechas nas mais variadas técnicas para todos os tipos de cabelos.</h4>
+              <Button id="inscrever"> Inscreva-se Gratuitamente</Button>
+            </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
       </Swiper>
     );
   };

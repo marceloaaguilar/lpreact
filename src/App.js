@@ -4,8 +4,8 @@ import Carousel from './components/Carousel';
 import GradeCurricular from './components/GradeCurricular';
 import Features from './components/Features';
 import Instructor from './components/Instructor';
-import Testmonials from './components/Testmonials';
 import Result from './components/Result';
+import Testmonials from './components/Testmonials';
 import Footer from './components/Footer';
 
 

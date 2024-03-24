@@ -19,7 +19,6 @@ const Result = () => {
                 <Image className='imageResult' src='foto1Resultado.jpg'></Image>
                 <Image className='imageResult' src='foto2Resultado.jpg'></Image>
                 <Image className='imageResult' src='foto3Resultado.jpg'></Image>
-
             </div>
         </div>
     )

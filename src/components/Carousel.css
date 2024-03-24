@@ -1,0 +1,26 @@
+#inscrever{
+    background-color: #CC8F91;
+    padding:  1rem 1rem;
+    color:  white;
+    font-weight:  700 ;
+    border: none ;
+    border-radius:  50px  
+}
+
+#inscrever:hover{
+    background-color: #B55D60;
+}
+
+#slideDiv{
+    background-color: #8E9A90;
+    color: white;
+    text-align: left;
+    padding: 10rem 20rem;
+}
+
+@media screen and (max-width:768px){
+    #slideDiv{
+        padding: 5rem 1rem;
+    }
+
+}

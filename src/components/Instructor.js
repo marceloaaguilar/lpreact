@@ -9,16 +9,10 @@ const Instructor = () => {
             <h2>Instrutor</h2>
             <p>Conheça quem vai te ajudar a ser fera em mechas!</p>
             <Image src='foto.png' style={{marginTop: '1rem', borderRadius: '100px'}}></Image>
-            <h4 style={{paddingTop: '1rem'}}>Vanessa Cardozo</h4>
-            <p>Técnica e Educadora</p>
-            <p>Vanessa Cardozo é educadora especialista em treinamentos de alta performance para cabeleireiros há quase 20 <br/>anos. É produtora de conteúdo digital para área da beleza, gestora de um salão e sócia de uma distribuidora de <br/>cosméticos no Rio Grande do Sul.</p>
+            <h4 style={{paddingTop: '1rem'}}>Marco Antônio de Souza Júnior</h4>
+            <p>Técnico e Educador</p>
+            <p>Me chamo Marco Antônio de Souza Júnior profissionalmente mais conhecido como Júnior Souza, sou cabeleireiro há 10 anos, há três anos venho me especializando em colorimetria, mechas e corte, estou sempre em busca de conhecimentos para agregar valor no meu trabalho, há seis meses atuo como educador no curso de formação básica para cabeleireiros. Estou sempre em busca do autoconhecimento para um melhor desenvolvimento pessoal e profissional, acolhendo sempre as críticas e elogios, como também a autocrítica, confesso que sou um pouco perfeccionista (rsrsrs)! Atualmente estou começando a estudar a área de visagismo, com o intuito de prestar consultoria em corte e cor, para personalizar e proporcionar um resultado único para cada cliente! Estou também na reta final da faculdade de administração. Espero através desse pequeno curso gerar um diferencial e agregar valor na carreira de vocês, acho todo conhecimento bem vindo, e acredito que a sempre algo de novo a se aprender!</p>
         </Container>
-
-
-
-
-
-
     )
 
 }
