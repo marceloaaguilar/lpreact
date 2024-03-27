@@ -20,6 +20,7 @@ function App() {
         statusMessage = "Online Agora"
         chatMessage = "Olá, como posso te ajudar?"
         allowEsc
+        avatar = 'fotoInstrutor.png'
         allowClickAway
         notification
         notificationSound/>

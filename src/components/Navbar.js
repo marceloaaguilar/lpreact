@@ -9,7 +9,7 @@ const navbar = function() {
         <Navbar style={{backgroundColor: '#222D16'}}>
       <Container className='w-100 justify-content-center'>
         <Navbar.Brand href="#home">
-          <Image src='logo.jpg' style={{height: '10rem', width: '100%', objectFit: 'cover', margin: '0'}}></Image>
+          <Image src='logo.jpg' style={{height: '10rem', width: '100%', objectFit: 'cover'}}></Image>
         </Navbar.Brand>
       </Container>
     </Navbar>
