@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c154d885.css",
-    "main.js": "./static/js/main.56af3a2e.js",
+    "main.js": "./static/js/main.c632d2a3.js",
     "static/media/5HA3eR8wR6xnDPzksXTQ_23.png": "./static/media/5HA3eR8wR6xnDPzksXTQ_23.8298b43d7197e6b3a761.png",
     "static/media/certificado.png": "./static/media/certificado.bdf21739c62465e09c84.png",
     "static/media/etiqueta-de-preco.png": "./static/media/etiqueta-de-preco.06a2a849c77044044221.png",
@@ -9,10 +9,10 @@
     "index.html": "./index.html",
     "static/media/play-fill.svg": "./static/media/play-fill.a97e69a53e044b55302be0e5012c153b.svg",
     "main.c154d885.css.map": "./static/css/main.c154d885.css.map",
-    "main.56af3a2e.js.map": "./static/js/main.56af3a2e.js.map"
+    "main.c632d2a3.js.map": "./static/js/main.c632d2a3.js.map"
   },
   "entrypoints": [
     "static/css/main.c154d885.css",
-    "static/js/main.56af3a2e.js"
+    "static/js/main.c632d2a3.js"
   ]
 }
