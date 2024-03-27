@@ -7,7 +7,7 @@ import Instructor from './components/Instructor';
 import Result from './components/Result';
 import Testmonials from './components/Testmonials';
 import Footer from './components/Footer';
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 

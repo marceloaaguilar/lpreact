@@ -1,24 +1,16 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'react-bootstrap/Image';
 
 
 const navbar = function() {
-
-
     return (
-        <Navbar className="bg-body-tertiary">
-      <Container>
+        <Navbar style={{backgroundColor: '#222D16'}}>
+      <Container className='w-100 justify-content-center'>
         <Navbar.Brand href="#home">
-          <h1>Cabeleireiros</h1></Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-     
-          </Navbar.Text>
-        </Navbar.Collapse>
+          <Image src='logo.jpg' style={{height: '10rem', width: '100%', objectFit: 'cover', margin: '0'}}></Image>
+        </Navbar.Brand>
       </Container>
     </Navbar>
     )
