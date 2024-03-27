@@ -7,9 +7,9 @@ import Image from 'react-bootstrap/Image';
 const navbar = function() {
     return (
         <Navbar style={{backgroundColor: '#222D16'}}>
-      <Container className='w-100 justify-content-center'>
+      <Container className='justify-content-center'>
         <Navbar.Brand href="#home">
-          <Image src='logo.jpg' style={{height: '10rem', width: '100%', objectFit: 'cover'}}></Image>
+          <Image src='logo.jpg' className='img-fluid' style={{height: '10rem', width: '100%', objectFit: 'cover'}}></Image>
         </Navbar.Brand>
       </Container>
     </Navbar>
