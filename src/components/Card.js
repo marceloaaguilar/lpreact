@@ -14,7 +14,7 @@ const cardCourse = function(){
                     <Card.Body>
                         <Card.Title>Sobre este curso</Card.Title>
                         <Card.Text>
-                            <Image className="icon img-fluid" style={{overflow: 'hidden'}}src={offerIcon}/> Grátis
+                            <Image className="icon img-fluid" style={{overflow: 'hidden'}}src={offerIcon}/> 49,90
                         </Card.Text>
                         <Card.Text>
                             <Image className="icon" src={paper}/> 26 aulas

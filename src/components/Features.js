@@ -42,7 +42,7 @@ const Features = function() {
                 <Card style={{ width: '100%' }}>
                     <Card.Img  class="cardImg" src={certiifcado} />
                     <Card.Body>
-                        <Card.Title>Vídeos</Card.Title>
+                        <Card.Title>Certificado</Card.Title>
                         <Card.Text>
                         Após aproveitar e aprender com todo o conteúdo disponibilizado, receba certificado de Conclusão do Curso de Mechas.
                         </Card.Text>
